@@ -7,6 +7,7 @@ Below is the connector pinout for the BMW E46 instrument cluster:
 #### **X11175 (Black)**
 | Cluster pin | Connect to | Comment |
 |--|--|--|
+| 1, 20, 24, 26 | GND (12V power supply) |
 | 4, 5, 6 | +12V |
 | 7 | +12V | Backlight for older IKE |
 | 9 | CAN H | Connect to your can bus interface
@@ -17,7 +18,6 @@ Below is the connector pinout for the BMW E46 instrument cluster:
 | 19 | ESP pin D22 | Speed sensor simulation - **VIA LEVEL SHIFTER**
 | 22 | ESP pin D21 | ABS light - **VIA LEVEL SHIFTER**
 | 23 | ESP pin D13 | Parking brake light - **VIA LEVEL SHIFTER**
-| 20, 24, 26 | GND (12V power supply) |
 
 #### **X11176 (White)**
 | Cluster pin | Connect to | Comment |
