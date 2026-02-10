@@ -30,3 +30,6 @@ With connections labeled with **VIA LEVEL SHIFTER**, a logic level shifter is ne
 - LV pin to 3.3V || HV pin to 12V || HV1/2/3/4 goes to cluster || LV1/2/3/4 goes to ESP
 
 For most warning lights and more to work you need to wire ESP GND to 12V power supply GND.
+
+### Alternative PCB
+For this E46 cluster, there is an [alternative PCB (v3)](../PCB/Gerbers/Gerber_CarCluster-v3_CarCluster-v3_2026-02-10.zip) where you can solder in the level shifter in its place and then just connect the cluster like normal!
